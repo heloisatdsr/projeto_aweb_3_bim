@@ -11,7 +11,7 @@
     top: 50px;
 }
 
-body {
+.body1 {
     background-color: rgb(224, 144, 177);
 }
 
@@ -67,3 +67,19 @@ body {
     justify-content: center;
 }
 
+
+.body2 {
+    background-color: rgb(173, 125, 218);
+}
+.tabuleiro2 {
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 
+        0 0 10px rgb(99, 36, 99),
+        0 0 20px rgb(164, 76, 199),
+        0 0 40px rgb(61, 3, 61);
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
