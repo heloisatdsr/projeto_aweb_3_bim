@@ -7,11 +7,11 @@
         0 0 20px rgb(156, 70, 114),
         0 0 40px rgb(156, 70, 114);
     position: relative;
-    left: 650px;
+    left: 450px;
     top: 50px;
 }
 
-.body1 {
+body {
     background-color: rgb(224, 144, 177);
 }
 
@@ -38,21 +38,21 @@
 
 #coroa1 {
     position: relative;
-    left: -31px;
+    left: -230px;
     top: 8px;
     transition: transform 0.3s ease;
 }
 
 #coroa2 {
     position: relative;
-    right:110px;
+    right:300px;
     top: 15px;
     transition: transform 0.3s ease;
 }
 
 #coroa3 {
     position: relative;
-    left: -160px;
+    left: -360px;
     top: 7px;
     transition: transform 0.3s ease;
 }
@@ -67,19 +67,20 @@
     justify-content: center;
 }
 
-
-.body2 {
-    background-color: rgb(173, 125, 218);
-}
-.tabuleiro2 {
-    height: 600px;
-    width: 500px;
-    border-radius: 10px;
-    box-shadow: 
-        0 0 10px rgb(99, 36, 99),
-        0 0 20px rgb(164, 76, 199),
-        0 0 40px rgb(61, 3, 61);
+.h1_mapa1 {
+    color: aliceblue;
     position: relative;
-    left: 20px;
-    top: 10px;
+    top: 20px;
+    left: 570px;
+    text-shadow: 2px 2px 5px rgb(87, 14, 72);
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.fase1:visited {
+    background-color: rgb(100, 5, 57);
+    text-decoration: underline;
+}
+
+#coroa1.visitado {
+  color: gold; /* Ou qualquer cor desejada */
 }
