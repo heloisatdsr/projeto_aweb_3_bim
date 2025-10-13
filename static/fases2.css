@@ -80,3 +80,50 @@
     text-shadow: 1px 1px 2px rgb(87, 14, 72);
     font-family: "SUSE Mono", monospace;
 }
+
+.body-f5 {
+    background-color: #a262b6;
+}
+.f5-img1 {
+    width: 500px;
+    height: 400px;
+}
+.f5-img2 {
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+}
+p, 
+h1 {
+    width: 600px;
+    text-align: center;
+    position: relative;
+    left: 450px;
+    top: 80px;
+    background-color: #9649b9;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace;
+}
+.h2-css {
+    width: 330px;
+    text-align: center;
+    position: relative;
+    left: 550px;
+    top: 80px;
+    background-color: #9649b9;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace;
+}
+.h2-2-css {
+    width: 60px;
+    text-align: center;
+    position: relative;
+    left: 550px;
+    top: 80px;
+    background-color: #9649b9;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace;
+}
