@@ -61,10 +61,7 @@
     top: 50px;
     width: 100px;
 }
-.h2-2-f4 {
-    top: 50px;
-    width: 100px;
-}
+.h2-2-f4,
 .h2-3-f4 {
     top: 50px;
     width: 100px;
@@ -86,7 +83,8 @@
     margin-top: 100px;
 }
 p,
-.obs-f4{
+.obs-f4
+.obs-f5 {
     text-align: center;
     position: relative;
     left: 450px;
@@ -102,6 +100,9 @@ p {
 .obs-f4 {
     width: 430px;
 }
+.obs-f5 {
+    width: 570px;
+} 
 pre {
     left: 50px;
     margin-top: 150px;
@@ -111,7 +112,7 @@ pre {
     font-family: "SUSE Mono", monospace;
 }
 .h2-css {
-    width: 330px;
+    width: 270px;
     text-align: center;
     position: relative;
     left: 550px;
@@ -121,18 +122,24 @@ pre {
     text-shadow: 1px 1px 2px rgb(87, 14, 72);
     font-family: "SUSE Mono", monospace;
 }
-.h2-2-css {
-    width: 60px;
+.h2-2-css,
+.h2-3-css {
     text-align: center;
     position: relative;
-    left: 550px;
     margin-top: 100px;
     background-color: #9649b9;
     color: #fbf0fa;
     text-shadow: 1px 1px 2px rgb(87, 14, 72);
     font-family: "SUSE Mono", monospace;
 }
-
+.h2-2-css {
+    width: 60px;
+    left: 550px;
+}
+.h2-3-css {
+    width: 150px;
+    left: 480px;
+}
 .h1-f5,
 .h1-2-f4 {
     font-size: 25px;
@@ -155,16 +162,19 @@ pre {
 .concluir {
     text-decoration: none;
     font-size: 20px;
-    color: #ffffff;
+    color: hsl(0, 0%, 100%);
     font-family: 'Press Start 2P', sans-serif;
-    height: 100px;
-    width: 200px;
-    background-color: #a275cc;
+}
+
+.concluirf {
+    height: 70px;
+    width: 300px;
+    background-color: #953fc7;
     position: relative;
     left: 650px;
     top: 300px;
     border: 3px solid;
-    border-color:#744a88;
+    border-color:#553074;
     border-radius: 10px;
     transition: 0.3s;
 }
@@ -177,8 +187,9 @@ pre {
 
 .concluirf:hover{
     transform: scale(1.25);
-    background-color: #6734a1;
+    background-color: #8533c9;
 }
+
 .tag-img {
     margin-left: 500px;
     margin-top: 100px;
@@ -188,4 +199,58 @@ pre {
     height: 150px;
     margin-top: 10px;
     margin-left: 500px;
+}
+.tabela-f5 {
+    width: 700px;
+    text-align: center;
+    position: relative;
+    left: 450px;
+    top: 50px;
+    background-color: #9649b9;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace;
+}
+.img-css-f5 {
+    width: 80px;
+    height: 100px;
+    margin-top: -80px;
+    margin-left: 650px;
+}
+.w3-container {
+    width: 300px; 
+    height: 200px;
+    margin-top: -150px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #ff7eb3, #8e44ad);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    margin-left: 300px;
+}
+.pre-2 {
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace;
+    margin-left: 560px;
+}
+.pre-3 {
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+.lista-f5 {
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-size: 20px;
+    font-weight: 20px;
+    margin-top: 50px;
+    font-family: "SUSE Mono", monospace;
+    margin-left: 470px;
+}
+.elementos-js {
+    margin-top: 230px;
+}
+.elementos-css {
+    margin-top: 150px;
 }
